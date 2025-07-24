@@ -1,0 +1,6 @@
+@ZAWDotNetTrainingBatch2.WebApi_HostAddress = http://localhost:5171
+
+GET {{ZAWDotNetTrainingBatch2.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
