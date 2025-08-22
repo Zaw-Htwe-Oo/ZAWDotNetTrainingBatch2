@@ -27,6 +27,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZAWDotNetTrainingBatch2.Win
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZAWDotNetTrainingBatch2.WindowsFormApp1.Database", "ZAWDotNetTrainingBatch2.WindowsFormApp1.Database\ZAWDotNetTrainingBatch2.WindowsFormApp1.Database.csproj", "{0098C660-35C3-4E5E-AE3C-69283FB0E14F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZAWDotNetTrainingBatch2.WebApi.Database", "ZAWDotNetTrainingBatch2.WebApi.Database\ZAWDotNetTrainingBatch2.WebApi.Database.csproj", "{43654F0F-851F-486B-9E31-AB755601FD2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZAWDotNetTrainingBatch2.Dapper.WebApi", "ZAWDotNetTrainingBatch2.Dapper.WebApi\ZAWDotNetTrainingBatch2.Dapper.WebApi.csproj", "{1D9C19D9-EACD-464F-BA3E-9912001F5D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZAWDotNetTrainingBatch2.WebApi.ADonet", "ZAWDotNetTrainingBatch2.WebApi.ADonet\ZAWDotNetTrainingBatch2.WebApi.ADonet.csproj", "{63E6C98A-9300-4296-AE72-2E4A19F8622A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppDI", "WebAppDI\WebAppDI.csproj", "{7BC8FCCF-7CE5-4CCA-9CAD-0E3D1205BA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.DI.Database", "WebApp.DI.Database\WebApp.DI.Database.csproj", "{C157114F-6478-40B1-9FDC-71F6352BA906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZAWDotNetTrainingBatch2.MVC", "ZAWDotNetTrainingBatch2.MVC\ZAWDotNetTrainingBatch2.MVC.csproj", "{BC900F03-814D-4E27-9D43-24D968BE9865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +81,30 @@ Global
 		{0098C660-35C3-4E5E-AE3C-69283FB0E14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0098C660-35C3-4E5E-AE3C-69283FB0E14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0098C660-35C3-4E5E-AE3C-69283FB0E14F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43654F0F-851F-486B-9E31-AB755601FD2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43654F0F-851F-486B-9E31-AB755601FD2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43654F0F-851F-486B-9E31-AB755601FD2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43654F0F-851F-486B-9E31-AB755601FD2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9C19D9-EACD-464F-BA3E-9912001F5D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9C19D9-EACD-464F-BA3E-9912001F5D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9C19D9-EACD-464F-BA3E-9912001F5D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9C19D9-EACD-464F-BA3E-9912001F5D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E6C98A-9300-4296-AE72-2E4A19F8622A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E6C98A-9300-4296-AE72-2E4A19F8622A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E6C98A-9300-4296-AE72-2E4A19F8622A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E6C98A-9300-4296-AE72-2E4A19F8622A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC8FCCF-7CE5-4CCA-9CAD-0E3D1205BA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC8FCCF-7CE5-4CCA-9CAD-0E3D1205BA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC8FCCF-7CE5-4CCA-9CAD-0E3D1205BA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC8FCCF-7CE5-4CCA-9CAD-0E3D1205BA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C157114F-6478-40B1-9FDC-71F6352BA906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C157114F-6478-40B1-9FDC-71F6352BA906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C157114F-6478-40B1-9FDC-71F6352BA906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C157114F-6478-40B1-9FDC-71F6352BA906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC900F03-814D-4E27-9D43-24D968BE9865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC900F03-814D-4E27-9D43-24D968BE9865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC900F03-814D-4E27-9D43-24D968BE9865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC900F03-814D-4E27-9D43-24D968BE9865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

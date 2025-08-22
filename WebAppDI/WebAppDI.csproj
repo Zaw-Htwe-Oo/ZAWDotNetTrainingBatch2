@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ZAWDotNetTrainingBatch2.WebApi.Database\ZAWDotNetTrainingBatch2.WebApi.Database.csproj" />
+    <ProjectReference Include="..\WebApp.DI.Database\WebApp.DI.Database.csproj" />
   </ItemGroup>
 
 </Project>
