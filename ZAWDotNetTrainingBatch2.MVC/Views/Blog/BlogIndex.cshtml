@@ -1,0 +1,35 @@
+﻿@using MVC.Blog.Database.AppDbContexModels
+@model List<TblBlog>
+
+@{
+    ViewData["Title"] = "Blog Page";
+}
+<h1>Blog</h1>
+
+<a href="/Blog/Create" class="btn btn-outline-success">Create</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Blog Id</th>
+            <th>Blog Title</th>
+            <th>Blog Author</th>
+            <th>Blog Content</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (TblBlog item in Model)
+        {
+            <tr>
+                <td>
+                    <a href="/blog/edit/@(item.BlogId)" class="btn btn-outline-warning">Edit</a>
+                </td>
+                <td>@(item.BlogId)</td>
+                <td>@item.BlogTitle</td>
+                <td>@item.BlogAuthor</td>
+                <td>@item.BlogContent</td>
+            </tr>
+        }
+    </tbody>
+</table>

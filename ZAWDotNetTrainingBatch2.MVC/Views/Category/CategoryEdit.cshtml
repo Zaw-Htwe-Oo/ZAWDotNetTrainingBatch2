@@ -1,0 +1,50 @@
+﻿@model CategoryEditRequestModel
+@{
+	ViewData["Title"] = "Edit Category";
+}
+
+
+<form action="/category/update/@(Model.CategoryId)" method="post">
+<div class="mb-3">
+	<label for="txtCategoryCode" class="form-label">Category Code</label>
+	<input type="text" class="form-control" id="txtCategoryCode" name="CategoryCode" vaule="@Model.CategoryCode">
+</div>
+<div class="mb-3">
+	<label for="txtCategoryName" class="form-label">Category Name</label>
+	<input type="text" class="form-control" id="txtCategoryName" name="CategoryName" value="@Model.CategoryName">
+</div>
+<button class="btn btn-dark" type="button" id="btnCancel">Cancel</button>
+<button class="btn btn-success" type="submit" id="btnSave">Save</button>
+</form>
+@section scripts {
+	<script>
+		$('#btnSave').click(function(){
+			const code = $('#txtCategoryCode').val();
+			const name = $('#txtCategoryName').val();
+
+			let _requestModel = {
+				CategoryCode: code,
+				CategoryName: name
+			};
+
+			$.ajax({
+				url: "/Category/Edit",
+				type: "POST",
+				data: { requestModel : _requestModel },
+				success: function (response) {
+					console.log({response});
+					if(!response.IsSuccess){
+						alert(response.Message);
+						return;
+					}
+
+					alert(response.Message);
+					location.href = "/category";
+				},
+				error: function (request, status, error) {
+					alert(request.responseText);
+				}
+			});
+		})
+	</script>
+}

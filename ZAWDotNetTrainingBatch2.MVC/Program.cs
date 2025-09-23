@@ -1,7 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using MVC.Blog.Database.AppDbContexModels;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddJsonOptions(opt =>
+{
+    opt.JsonSerializerOptions.PropertyNamingPolicy = null;
+});
+
+builder.Services.AddDbContext<BlogDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
+}); // <-- Added missing closing parenthesis and semicolon
+
 
 var app = builder.Build();
 
