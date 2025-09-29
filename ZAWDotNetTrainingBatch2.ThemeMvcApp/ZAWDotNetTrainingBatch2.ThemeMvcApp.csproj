@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZAWDotNetTrainingBatch2.ThemeMvcApp.Database\ZAWDotNetTrainingBatch2.ThemeMvcApp.Database.csproj" />
+    <ProjectReference Include="..\ZAWDotNetTrainingBatch2.WindowsFormApp1.Database\ZAWDotNetTrainingBatch2.WindowsFormApp1.Database.csproj" />
+  </ItemGroup>
+
+</Project>

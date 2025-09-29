@@ -53,6 +53,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Blog.Database", "MVC.Bl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZAWDotNetTrainingBatch2.RealtimeNotification", "ZAWDotNetTrainingBatch2.RealtimeNotification\ZAWDotNetTrainingBatch2.RealtimeNotification.csproj", "{2EF98E7B-9FF1-4F56-8391-E0141184D5F5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminLTE", "AdminLTE", "{0AC3E0F9-CCE2-4A3E-AC5E-64207F5E102B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZAWDotNetTrainingBatch2.ThemeMvcApp", "ZAWDotNetTrainingBatch2.ThemeMvcApp\ZAWDotNetTrainingBatch2.ThemeMvcApp.csproj", "{A8CBD5C5-683D-4BF7-8103-78398FB0F53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZAWDotNetTrainingBatch2.ThemeMvcApp.Database", "ZAWDotNetTrainingBatch2.ThemeMvcApp.Database\ZAWDotNetTrainingBatch2.ThemeMvcApp.Database.csproj", "{7393895E-D1ED-4BFA-8EAB-7EACADE73DEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +145,14 @@ Global
 		{2EF98E7B-9FF1-4F56-8391-E0141184D5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EF98E7B-9FF1-4F56-8391-E0141184D5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EF98E7B-9FF1-4F56-8391-E0141184D5F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8CBD5C5-683D-4BF7-8103-78398FB0F53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CBD5C5-683D-4BF7-8103-78398FB0F53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CBD5C5-683D-4BF7-8103-78398FB0F53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CBD5C5-683D-4BF7-8103-78398FB0F53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7393895E-D1ED-4BFA-8EAB-7EACADE73DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7393895E-D1ED-4BFA-8EAB-7EACADE73DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7393895E-D1ED-4BFA-8EAB-7EACADE73DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7393895E-D1ED-4BFA-8EAB-7EACADE73DEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,6 +171,8 @@ Global
 		{1E3C2AAA-C189-40EC-A6A9-4E9ED1A31441} = {2B06BBB5-E03E-413A-9BE0-EE9C41D22B04}
 		{86462EBA-75AE-4786-876B-115143BC94FB} = {7E92AF29-95CB-4AB4-8DD5-23FCA985FD01}
 		{0518C243-988C-454C-9A22-1156E335B0AA} = {7E92AF29-95CB-4AB4-8DD5-23FCA985FD01}
+		{A8CBD5C5-683D-4BF7-8103-78398FB0F53E} = {0AC3E0F9-CCE2-4A3E-AC5E-64207F5E102B}
+		{7393895E-D1ED-4BFA-8EAB-7EACADE73DEA} = {0AC3E0F9-CCE2-4A3E-AC5E-64207F5E102B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93C3B3CC-AFE1-4387-992B-FC05ADE8B51B}
